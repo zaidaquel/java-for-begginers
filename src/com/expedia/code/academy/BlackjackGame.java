@@ -2,7 +2,7 @@ package com.expedia.code.academy;
 
 import java.util.Scanner;
 
-public class Main {
+public class BlackjackGame {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

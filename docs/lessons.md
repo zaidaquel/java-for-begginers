@@ -357,6 +357,7 @@ public class Deck {
     public Card withdraw() {
         // if deckCard is not null and not empty, remove and return the first Card
         // otherwise throw an Exception..
+        // Bonus: create a custom exception
     }
 }
 ```
