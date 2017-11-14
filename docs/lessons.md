@@ -262,8 +262,8 @@ class, preventing unauthorized parties' direct access to them. `
 4. public
 
 ## Time for an Exercise
-* What is missing in `Car` class?*
-* `maxSpeed` value can't be changed, should it be shared among all `Car` objects? *
+* What is missing in `Car` class?
+* `maxSpeed` value can't be changed, should it be shared among all `Car` objects?
 
 
 ## Methods
@@ -308,10 +308,6 @@ it always has two doors.
 ```java
 class CoupeCar ...
 ```
-## super keyword
-
-## Object class
-
 
 ## Polymorphisim
 
