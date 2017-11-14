@@ -330,9 +330,24 @@ public static void main(String[] args){
     System.out.println(c4.getNumberOfDoors());
 }
 ```
+## Blackjack
+
+Blackjack game is a cards game, Players are each dealt two cards (in this example we will have one player and the dealer).
+<br />
+<br />
+The value of cards two through ten is their pip value (2 through 10). Face cards (Jack, Queen, and King) 
+are all worth ten. Aces can be worth one or eleven (in this example an Ace will always worth one for simplicity).
+<br />
+<br />
+A hand's value is the sum of the card values. Players are allowed to draw additional cards (hit) to improve their hands or to stop.
+<br />
+<br />
+Once the game finish, the player who gets a count as close to 21 as possible (without going over it) wins.
+<br />
+If both the dealer and the player get over 21, the dealer wins.
 
 ## Time for an Exercise
-In the context of Black jack game, implement the `Card` and `Player` Classes
+In the context of Blackjack game, implement the `Card` and `Player` Classes
 ```java
 class Card {
   // name - can't be changed
