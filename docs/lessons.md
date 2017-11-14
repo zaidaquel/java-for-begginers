@@ -1,4 +1,4 @@
-###Main method
+## Main method
 
 In the Java programming language, every application must contain a main method whose signature is:
 
@@ -28,12 +28,12 @@ Each variable can store a particular type of data, chosen by you.
 ## Numbers
 Come in many flavours, based on how large or small you need them to go, and if you need decimal points.
 
-######the integral types:
+###### the integral types:
 * byte
 * short
 * int
 * long
-######the floating-point types:
+###### the floating-point types:
 * float
 * double
 
@@ -41,7 +41,7 @@ Come in many flavours, based on how large or small you need them to go, and if y
 ```java
 int temperatureToday = 18;
 int myBankBalance = -65;
-```tr
+```
 
 ## Strings
 A String is a sequence of (0 or more) characters.  
