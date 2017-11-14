@@ -1,4 +1,3 @@
-TODO: break down into lessons and homeworks
 ###Main method
 
 In the Java programming language, every application must contain a main method whose signature is:
@@ -7,7 +6,6 @@ In the Java programming language, every application must contain a main method w
 public static void main(String [ ] args){...}
 ```
 The main method is the entry point for your application.
-
 
 
 ## Console Output
