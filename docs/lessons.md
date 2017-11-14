@@ -339,7 +339,8 @@ The value of cards two through ten is their pip value (2 through 10). Face cards
 are all worth ten. Aces can be worth one or eleven (in this example an Ace will always worth one for simplicity).
 <br />
 <br />
-A hand's value is the sum of the card values. Players are allowed to draw additional cards (hit) to improve their hands or to stop.
+A hand's value is the sum of the card values. Players must decide whether to "stand" 
+(not ask for another card) or "hit" (ask for another card in an attempt to get closer to a count of 21, or even hit 21 exactly). 
 <br />
 <br />
 Once the game finish, the player who gets a count as close to 21 as possible (without going over it) wins.
