@@ -43,7 +43,7 @@ Come in many flavours, based on how large or small you need them to go, and if y
 ```java
 int temperatureToday = 18;
 int myBankBalance = -65;
-```
+```tr
 
 ## Strings
 A String is a sequence of (0 or more) characters.  
@@ -219,7 +219,7 @@ class Car {
   String brand;
   String color;
   final int maxSpeed = 160;
-  int currentSpeed; 
+  int currentSpeed;
 
   Car(String carBrand, String carColor) {
     brand = carBrand;
@@ -237,6 +237,10 @@ class Car {
       if(currentSpeed >= 10){
         currentSpeed = currentSpeed - 10;    
       }
+  }
+  
+  public int getNumberOfDoors(){
+      return 4;
   }
 }
 ```
@@ -291,7 +295,47 @@ public String toString() {
   return name + " (Car: " + color + " " brand + ")";
 }
 ```
+## Inheritance
+`inheritance enables new objects to take on the properties of existing objects. A class that is used as 
+the basis for inheritance is called a superclass or base class. A class that inherits from a superclass is called a subclass or derived class.`
+[Adobe](http://www.adobe.com/devnet/actionscript/learning/oop-concepts/inheritance.html) 
 
+The syntax for creating a subclass is simple. At the beginning of your class declaration, use the extends keyword, followed by the name of the class to inherit from.
+
+
+## Time for an Exercise
+Create a new class, `CoupeCar`. A coupe car has the same functionality of a car except 
+it always has two doors.
+
+```java
+class CoupeCar ...
+```
+## super keyword
+
+## Object class
+
+
+## Polymorphisim
+
+```java
+public static void main(String[] args){
+    //what is the result?
+    Car c1 = new Car("KIA", "Red");
+    System.out.println(c1.getNumberOfDoors());
+    
+    //what is the result?
+    Car c2 = new CoupeCar("Opel", "Black");
+    System.out.println(c2.getNumberOfDoors());
+    
+    //what is the result?
+    CoupeCar c3 = new CoupeCar("Mitsubishi", "White");
+    System.out.println(c3.getNumberOfDoors());
+    
+    //what is the result?
+    CoupeCar c4 = new Car("Toyota", "Green");
+    System.out.println(c4.getNumberOfDoors());
+}
+```
 
 ## Time for an Exercise
 In the context of Black jack game, implement the `Card` and `Player` Classes
